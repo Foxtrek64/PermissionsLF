@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "permissionslf-fabric",
+  "version": "${version}",
+
+  "name": "PermissionsLF",
+  "description": "A permission system for Sponge, Fabric, and Forge based on Role Based Access Control.",
+  "authors": [
+    "LuzFaltex Contributors"
+  ],
+  "contact": {
+    "website": "https://github.com/ravenrockrp/PermissionsLF"
+  },
+
+  "license": "ISC",
+  "icon": "assets/permissionslf-fabric/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "com.luzfaltex.permissionslf.client.PermissionslfFabricClient"
+    ],
+    "main": [
+      "com.luzfaltex.permissionslf.PermissionslfFabric"
+    ]
+  },
+
+          "mixins": [
+        "permissionslf-fabric.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.13.0",
+              "fabric": "*",
+          "minecraft": "1.16.5"
+  }
+}
