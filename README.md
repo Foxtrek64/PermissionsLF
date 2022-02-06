@@ -1,5 +1,5 @@
 # PermissionsLF
-PermissionsLF is a WIP permissions system designed to give serveradministrators finely-grained control over permission delegation. It is compatible with Sponge, Fabric, and Forge.
+PermissionsLF is a WIP permissions system designed to give server administrators finely-grained control over permission delegation. It is compatible with Sponge, Fabric, and Forge.
 
 ## Compatibility
 
